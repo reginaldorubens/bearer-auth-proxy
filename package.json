@@ -1,0 +1,28 @@
+{
+  "name": "bearer-auth-proxy",
+  "version": "1.0.0",
+  "description": "Proxy to get JWT token and add Bearer Authentication header and redirect requests for REST API",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon --watch src src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "tojen",
+    "bearer",
+    "auth"
+  ],
+  "author": "Reginaldo Rubens da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "qs": "^6.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
